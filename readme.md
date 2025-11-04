@@ -44,15 +44,14 @@
 
 
 ### ACTIVIDAD 10
-    Crea una clase Screen que hereda de Product y que tiene una nueva propiedad llamada size. El método getDescription() mostrará el tamaño (size) junto al nombre.
+Crea una clase Screen que hereda de Product y que tiene una nueva propiedad llamada size. El método getDescription() mostrará el tamaño (size) junto al nombre.
 
 ## ACTIVIDAD 11:
-    Adapta las clases Product y Screen para que el método que muestra los datos del producto se llame de la manera más adecuada sobrecargando toString
+Adapta las clases Product y Screen para que el método que muestra los datos del producto se llame de la manera más adecuada sobrecargando toString
 
-    Crea 5 productos y guárdalos en un array. Crea las siguientes funciones (todas reciben ese array como parámetro):
-
-        * prodsSortByName() : Devuelve un array con los productos ordenados alfabéticamente.
-        * prodsSortByPrice() : Devuelve un array con los productos ordenados por importe.
-        * prodsTotalPrice(): Devuelve el importe total del los productos del array, con 2 decimales.
-        * prodsWithLowUnits(prods, units): Recibe el array de productos y como segundo parámetro un número. Devuelve un array con todos los productos de los que quedan menos de los unidades indicadas.
-        * prodsList(): Devuelve una cadena que dice 'Listado de productos:' y en cada línea un guión y la información de un producto del array.
+Crea 5 productos y guárdalos en un array. Crea las siguientes funciones (todas reciben ese array como parámetro)
+* prodsSortByName() : Devuelve un array con los productos ordenados alfabéticamente.
+* prodsSortByPrice() : Devuelve un array con los productos ordenados por importe.
+* prodsTotalPrice(): Devuelve el importe total del los productos del array, con 2 decimales.
+* prodsWithLowUnits(prods, units): Recibe el array de productos y como segundo parámetro un número. Devuelve un array con todos los productos de los que quedan menos de los unidades indicadas.
+* prodsList(): Devuelve una cadena que dice 'Listado de productos:' y en cada línea un guión y la información de un producto del array
