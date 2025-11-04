@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahorcado</title>
+    <style>
+        #container {
+            height: 100vh;
+            /* Como 100% pero funcional*/
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .form{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 15px;
+        }
+
+        .hiddenForm{
+            display: none;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="container">
+        <form class="form" id="firstForm">
+            <label>Juego ahorcado</label>
+            <input id="word" type="text" required placeholder="Introduce un palabra para el ahorcado"></input>
+            <button id="button" type="submit">Enviar</button>
+        </form>
+        <form class="form hiddenForm" id="secondForm">
+            <label>Juego ahorcado</label>
+            <h2 id="lifes">Te quedan 6 vidas</h2>
+            <input id="letter" type="text" required placeholder="Introduce una letra"></input>
+            <button id="secondButton" type="submit">Enviar</button>
+        </form>
+        <script src="main.js"></script>
+    </div>
+    
+</body>
+</html>

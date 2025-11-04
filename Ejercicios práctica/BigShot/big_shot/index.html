@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Big Shot</title>
+    <style>
+        #container {
+            height: 100vh;
+            /* Como 100% pero funcional*/
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        #img2{
+            display: none;
+            margin-left: 12%;      
+     }
+        
+        .img_hover:hover{
+            #img1{
+                display: none;
+            }
+           #img2{
+                display: flex;
+               /* width: 450px;
+                height: 500px;*/
+            }
+    }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <h1 id="hola1">Hola clase</h1>
+        <b id="hola2"></b>
+        <div id="imagen" class="img_hover">
+            <img id="img1" src="Tenna_battle.gif">
+            <img id="img2" src="Spamton_NEO_battle.gif">
+
+        </div>
+    </div>
+
+    <script src="miScript.js"></script>
+</body>
+
+</html>
