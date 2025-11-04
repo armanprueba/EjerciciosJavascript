@@ -46,7 +46,7 @@
 ### ACTIVIDAD 10
 Crea una clase Screen que hereda de Product y que tiene una nueva propiedad llamada size. El método getDescription() mostrará el tamaño (size) junto al nombre.
 
-## ACTIVIDAD 11:
+### ACTIVIDAD 11:
 Adapta las clases Product y Screen para que el método que muestra los datos del producto se llame de la manera más adecuada sobrecargando toString
 
 Crea 5 productos y guárdalos en un array. Crea las siguientes funciones (todas reciben ese array como parámetro)
